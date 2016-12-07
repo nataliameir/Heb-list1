@@ -10,7 +10,7 @@ var Experigen =  {
 		
 		strings: {
 		    // SETUP: Enter Title for Browser Window
-			windowTitle:     "HSE",
+			windowTitle:     "Experiment",
 			connecting:	"...מתחבר",
 			loading:         "... טוענים נתונים",
 			soundButton:     "    ►    ",
