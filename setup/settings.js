@@ -11,12 +11,12 @@ var Experigen =  {
 		strings: {
 		    // SETUP: Enter Title for Browser Window
 			windowTitle:     "HSE",
-			connecting:	"Подключаемся...",
-			loading:         "Загружаю данные...",
+			connecting:	"...מתחבר",
+			loading:         "... טוענים נתונים",
 			soundButton:     "    ►    ",
-			continueButton:  "   Дальше   ",
-			errorMessage:    "Возникла непредвиденная ошибка. Просим прощения за неудобство.",
-			emptyBoxMessage: "Пожалуйста, заполните эту форму."
+			continueButton:  "   .המשך   ",
+			errorMessage:    ".שגיאה בלתי צפויה. מצטערים על אי הנוחות",
+			emptyBoxMessage: ".נא למלא את הטופס הזה"
 		},
 		
 		audio: true,
