@@ -1,0 +1,103 @@
+<div style="text-align: left;">
+<input type="hidden" name="destination" value="demographics.csv">
+
+And now please answer the following questions:
+
+<p>
+How old are you?<br>
+<input type="text" name="age" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+
+<p>
+
+Gender
+	<select name="sex" style="position: absolute; left:15em; margin-top:-2px;">
+		<option value="none">Choose</option>
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+	</select>
+	
+
+<p>
+Education
+	<select name="education" style="position: absolute; left:15em; margin-top:-2px;">
+		<option value="none">Choose</option>
+		<option value="srednee">High school</option>
+		<option value="sred.spec, higher.incomplete, higher">College</option>
+		<option value="PhD">Graduate school</option>
+	</select>
+<p>
+
+Your first language  <br>
+<input type="text" name="native.lang" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+
+<p>
+
+Do you speak other languages? If yes, what languages? How well? <br>
+<input type="text" name="foreign.lang" value="" SIZE="30" MAXLENGTH="200" style="width: 30em;">
+
+<p>
+
+Occupation<br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+
+<p>
+
+Are you
+	<select name="dominant.hand" style="position: absolute; left:9em; margin-top:-2px;">
+		<option value="none">choose</option>
+		<option value="right">right-handed</option>
+		<option value="left">left-handed</option>
+		<option value="ambidexter">ambidexterous</option>
+		<option value="former.left">reformed left-hander</option>
+	</select>
+<p>
+
+How old were you when you first moved to the USA/Canada?<br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+<p>
+
+How many years have you lived in the USA/Canada?<br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+<p>
+
+Do you use Russian language? In what situations and how often? 
+<br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="400" style="width: 30em;">
+
+<p>
+Do you have hearing loss?
+	<select name="hearing" style="position: absolute; left:20em; margin-top:-2px;">
+		<option value="none">choose</option>
+		<option value="hearing.ok">no</option>
+		<option value="hearing.bad">yes</option>
+	</select>
+<p>
+
+
+You listen to the sentences using
+	<select name="audio" style="position: absolute; left:12em; margin-top:-2px;">
+		<option value="none">choose</option>
+		<option value="headphones">headphones</option>
+		<option value="speakers">loudspeaker</option>
+		<option value="laptop.speakers">laptop sound</option>
+		<option value="other">other</option>
+	</select>
+<p>
+
+
+If you have questions or comments concerning the experiment please let us know.
+<textarea ROWS="6" COLS="30" name="sugg" style="padding: 0px; width: 30em;"></textarea><br>
+
+<p>
+
+Please leave your email information do that we could reply to your comments.
+<input type="text" name="email" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+
+<p>
+
+
+<P style="text-align: right;">
+<input type="button" value="   Send   " onClick="Experigen.recordResponse(this);">
+	
+
+</div>

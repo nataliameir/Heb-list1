@@ -1,0 +1,20 @@
+
+<div class="trialpartWrapper" style="text-align: left;">
+
+Thank you for taking part in our experiment. <br> <br>
+In this experiment, you will hear sentences in Russian and will be asked to rate their acceptability. That will help us determine what people’s preferences are. <br> <br>
+You will press the button "    ►    " in order to hear a sentence. If that sentence sounds unacceptable to you please press the button "Ошибка!". Try pressing the button as soon as you hear what sounds wrong to you. <br> <br>
+
+If you do not find mistakes in a given sentence do not press any buttons; within the next four seconds you will be able to listen to the next sentence.
+ <br>
+You can only listen to each sentence once.  <br> <br>
+
+The entire experiment should take 15 to 20 minutes.
+
+You will now have to confirm that you agree with the rules and conditions of this experiment/ After that you will hear practice examples.
+Please put on your headphones and press "Дальше".
+ <br> <br>
+
+	<%= continueButton() %>
+</div>
+

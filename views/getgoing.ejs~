@@ -1,0 +1,9 @@
+<div style="text-align: center;">
+
+<p>
+Das Experiment beginnt!
+
+<p>
+<%= continueButton() %>
+
+</div>
