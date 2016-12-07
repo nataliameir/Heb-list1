@@ -1,96 +1,146 @@
-<div style="text-align: left;">
+<div style="text-align: right;">
 <input type="hidden" name="destination" value="demographics.csv">
 
-And now please answer the following questions:
+ועכשיו בבקשה לענות על השאלות הבאות
 
 <p>
-How old are you?<br>
+גיל <br>
 <input type="text" name="age" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Gender
+מין
 	<select name="sex" style="position: absolute; left:15em; margin-top:-2px;">
 		<option value="none">Choose</option>
-		<option value="male">Male</option>
-		<option value="female">Female</option>
+		<option value="זכר">זכר</option>
+		<option value="נקבה">נקבה</option>
 	</select>
 	
 
 <p>
-Education
+השכלה
 	<select name="education" style="position: absolute; left:15em; margin-top:-2px;">
 		<option value="none">Choose</option>
-		<option value="srednee">High school</option>
-		<option value="sred.spec, higher.incomplete, higher">College</option>
-		<option value="PhD">Graduate school</option>
+		<option value="תיכון">תיכון</option>
+		<option value=" תואר ראשׁוֹן / שני> תואר ראשׁוֹן / שני</option>
+		<option value="דוקטורט">דוקטורט</option>
 	</select>
 <p>
 
-Your first language  <br>
+השפה הראשונה שלך  <br>
 <input type="text" name="native.lang" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Do you speak other languages? If yes, what languages? How well? <br>
+אתה מדבר שפות אחרות? אם כן, אילו שפות? באיזו רמה <br>
 <input type="text" name="foreign.lang" value="" SIZE="30" MAXLENGTH="200" style="width: 30em;">
 
 <p>
 
-Occupation<br>
+מקצוע <br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Are you
+את/ה
 	<select name="dominant.hand" style="position: absolute; left:9em; margin-top:-2px;">
 		<option value="none">choose</option>
-		<option value="right">right-handed</option>
-		<option value="left">left-handed</option>
-		<option value="ambidexter">ambidexterous</option>
-		<option value="former.left">reformed left-hander</option>
+		<option value="ימני">ימני</option>
+		<option value="שמאלי">שמאלי</option>
+		<option value="גם ימני ושאלי">גם ימני וגם שמאלי</option>
+		<option value="שמאלי לשעבר">שמאלי לשעבר</option>
 	</select>
 <p>
 
-How old were you when you first moved to the USA/Canada?<br>
+באיזה גיל את/ה עלית לישראל <br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 <p>
 
-How many years have you lived in the USA/Canada?<br>
+Hכמה שנים את/ה גר/ה בישראל? <br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 <p>
 
-Do you use Russian language? In what situations and how often? 
+האם את/ה משתמש/ת בשפה רוסית? באילו מצבים ובאיזו תדירות 
 <br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="400" style="width: 30em;">
 
 <p>
-Do you have hearing loss?
+האם יש לך ירידה בשמיעה?
 	<select name="hearing" style="position: absolute; left:20em; margin-top:-2px;">
 		<option value="none">choose</option>
-		<option value="hearing.ok">no</option>
-		<option value="hearing.bad">yes</option>
+		<option value="לא">לא</option>
+		<option value="כן">כן</option>
 	</select>
 <p>
 
 
-You listen to the sentences using
+את/ה מקשיב/ה למשפטים באמצעות
 	<select name="audio" style="position: absolute; left:12em; margin-top:-2px;">
 		<option value="none">choose</option>
-		<option value="headphones">headphones</option>
-		<option value="speakers">loudspeaker</option>
-		<option value="laptop.speakers">laptop sound</option>
-		<option value="other">other</option>
+		<option value="אוזניות">אוזניות</option>
+		<option value=" רמקולים"> רמקולים</option>
+		<option value="הרמקולים של המחשב הנייד">הרמקולים של המחשב הנייד/option>
+		<option value="אחר">אחר</option>
 	</select>
 <p>
 
 
-If you have questions or comments concerning the experiment please let us know.
+אם יש לך שאלות או הערות בנוגע לניסוי אנא יידע אותנו.
 <textarea ROWS="6" COLS="30" name="sugg" style="padding: 0px; width: 30em;"></textarea><br>
 
 <p>
 
-Please leave your email information do that we could reply to your comments.
+נא להשאיר את פרטי הדוא"ל שלך על מנת שנוכל להשיב לתגובות שלך.
+<input type="text" name="email" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+
+<p>
+
+
+<P style="text-align: right;">
+<input type="button" value="   Send   " onClick="Experigen.recordResponse(this);">
+	
+
+</div>
+
+באיזה גיל את/ה עלית לישראל <br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+<p>
+
+Hכמה שנים את/ה גר/ה בישראל? <br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
+<p>
+
+האם את/ה משתמש/ת בשפה רוסית? באילו מצבים ובאיזו תדירות 
+<br>
+<input type="text" name="profession" value="" SIZE="30" MAXLENGTH="400" style="width: 30em;">
+
+<p>
+האם יש לך ירידה בשמיעה?
+	<select name="hearing" style="position: absolute; left:20em; margin-top:-2px;">
+		<option value="none">choose</option>
+		<option value="לא">לא</option>
+		<option value="כן">כן</option>
+	</select>
+<p>
+
+
+את/ה מקשיב/ה למשפטים באמצעות
+	<select name="audio" style="position: absolute; left:12em; margin-top:-2px;">
+		<option value="none">choose</option>
+		<option value="אוזניות">אוזניות</option>
+		<option value=" רמקולים"> רמקולים</option>
+		<option value="הרמקולים של המחשב הנייד">הרמקולים של המחשב הנייד/option>
+		<option value="אחר">אחר</option>
+	</select>
+<p>
+
+
+אם יש לך שאלות או הערות בנוגע לניסוי אנא יידע אותנו.
+<textarea ROWS="6" COLS="30" name="sugg" style="padding: 0px; width: 30em;"></textarea><br>
+
+<p>
+
+נא להשאיר את פרטי הדוא"ל שלך על מנת שנוכל להשיב לתגובות שלך.
 <input type="text" name="email" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
