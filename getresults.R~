@@ -1,5 +1,5 @@
 # where your experiment is hosted
-experigen.sourceURL = "experweb.HEB-list1"
+experigen.sourceURL = "http://www.exper.website/Heb-list1/"
 # this information comes from your settings.js file
 experigen.experimentName = "HEBList1"
 experigen.database = "http://db.phonologist.org/"
